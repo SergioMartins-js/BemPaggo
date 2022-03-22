@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bem Paggo</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="icon" type="image/png" href="img/logo.png" sizes="32x32">
+    <script src="funcoes.js"></script>
+  </head>
+  <body>
+    <form>
+        
+        <div class="imagem" id="img"><img src="img/navbar.png"></div>
+            <div class="text">
+                <h4>Quais adesivos:</h4>
+                <br>
+                    <div class="check">
+                        <input type="checkbox" name="React" value="1" id="op1" /> React</br>
+                        <input type="checkbox" name="Vue" value="2" id="op2"/> Vue</br>
+                        <input type="checkbox" name="Angular" value="3" id="op3"/> Angular</br><br/>
+                    </div>    
+                <h4>Quantos adesivos de cada?</h4>    
+                    <div>
+                <input type="button" id="menos" value='-' onclick="process(-1)" />
+                <input type="text" name="quant" class="text" id="quant" size="1" value="0" maxlength="5" />
+                <input type="button" id="mais" value='+' onclick="process(1)">
+                    </div>
+                <br/><h4>Obeservações:</h4>
+                <br>
+                <textarea id="observe" rows="10" cols="40" maxlength="220" placeholder="Alguma dúvida? Recado?"></textarea>
+                <br/>
+            </div>
+                <div class="rodape">
+                    <input id="env" type="button" value="ENVIAR" onclick="enviar()">
+                </div> 
+        </form>
+</body>
+</html>

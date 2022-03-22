@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #8a2be2;
+}
+form {
+  background-color: #f2f2f2;
+  max-width: 400px;
+  width: 80%;
+  padding: 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 85%;
+}
+
+#observe {
+  resize: none;
+  margin-bottom: 20px;
+  max-width: 360px;
+  width: 80%;
+  width: 360px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: #dce3e8;
+  border-color: #8a2be2;
+  border-width: 1px;
+}
+
+#observe::placeholder {
+  position: absolute;
+  left: 15px;
+  top: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: inherit;
+}
+
+#env {
+  margin-top: 10px;
+  margin-left: 250px;
+  width: 30%;
+  height: 35px;
+  cursor: pointer;
+  background: #2f3676;
+  color: white;
+  border-radius: 7px;
+  border-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+}
+#retorn {
+  margin-top: 10px;
+  margin-left: 250px;
+  width: 30%;
+  height: 35px;
+  cursor: pointer;
+  background: #2f3676;
+  color: white;
+  border-radius: 7px;
+  border-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+}
+#sucesso {
+  text-align: center;
+}
+#menos {
+  margin-right: -20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: #2f3676;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+  font-size: 25px;
+}
+#mais {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: #2f3676;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+  font-size: 25px;
+}
+#quant {
+  text-align: center;
+  margin-top: 15px;
+  height: 25px;
+  background-color: #dce3e8;
+  border-color: #8a2be2;
+  border-radius: 5px;
+  border-width: 1px;
+}
+img {
+  margin-top: 67px;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  position: relative;
+  left: 49.5%;
+  top: 0px;
+  transform: translate(-50%, -50%);
+}
+.imagem {
+  height: auto;
+  width: 404px;
+}
+.rodape {
+  padding: 25px;
+  background-color: #dde3e8;
+  border-radius: 10px;
+}
+.text {
+  margin-top: -50px;
+  margin-left: 20px;
+}
+
+::-webkit-input-placeholder {
+  text-align: left;
+}
